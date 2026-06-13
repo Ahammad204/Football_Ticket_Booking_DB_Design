@@ -1,0 +1,40 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="55wzFCbHwmdasNGawshN">
+    <mxGraphModel dx="1121" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vHO8j_4u-zzAuaH7VYhc-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-weight:600&quot; data-token-index=&quot;0&quot; class=&quot;notion-enable-hover&quot;&gt;Matches&lt;/span&gt;" vertex="1">
+          <mxGeometry height="280" width="160" x="680" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="vHO8j_4u-zzAuaH7VYhc-2" parent="vHO8j_4u-zzAuaH7VYhc-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;b&gt;PK&amp;nbsp;&lt;/b&gt;&lt;b&gt;match_id,&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fixture,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;tournament_category,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;base_ticket_price,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;match_status&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&#39;Available&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&#39;Selling Fast&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&#39;Sold Out&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&#39;Postponed&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vHO8j_4u-zzAuaH7VYhc-5" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;span style=&quot;font-weight:600&quot; data-token-index=&quot;0&quot; class=&quot;notion-enable-hover&quot;&gt;Users&lt;/span&gt;" vertex="1">
+          <mxGeometry height="219" width="160" x="90" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="vHO8j_4u-zzAuaH7VYhc-6" parent="vHO8j_4u-zzAuaH7VYhc-5" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&amp;nbsp;&lt;b&gt;PK  user_id&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;&amp;nbsp;full_name,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;email,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;role,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;phone_number&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="169" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vHO8j_4u-zzAuaH7VYhc-3" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;font-weight:600&quot; data-token-index=&quot;0&quot; class=&quot;notion-enable-hover&quot;&gt;Bookings&lt;/span&gt;" vertex="1">
+          <mxGeometry height="310" width="160" x="400" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vHO8j_4u-zzAuaH7VYhc-4" parent="vHO8j_4u-zzAuaH7VYhc-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;b&gt;PK&amp;nbsp;&lt;/b&gt;&lt;b&gt;booking_id ,&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;FK&amp;nbsp;&lt;/b&gt;&lt;b&gt;user_id ,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;FK&amp;nbsp;&lt;/b&gt;&lt;b&gt;match_id ,&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;seat_number,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;payment_status  [&lt;/div&gt;&lt;div&gt;&#39;Pending&#39;,&lt;/div&gt;&lt;div&gt;&#39;Confirmed&#39;,&lt;/div&gt;&lt;div&gt;&#39;Cancelled&#39;,&lt;/div&gt;&lt;div&gt;&#39;Refunded&#39;]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;total_cost&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vHO8j_4u-zzAuaH7VYhc-10" edge="1" parent="1" source="vHO8j_4u-zzAuaH7VYhc-5" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;exitX=0.988;exitY=0.123;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=baseDash;startFill=0;endFill=0;entryX=-0.012;entryY=0.097;entryDx=0;entryDy=0;entryPerimeter=0;" target="vHO8j_4u-zzAuaH7VYhc-3" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="270" y="280" as="sourcePoint" />
+            <mxPoint x="398" y="126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHO8j_4u-zzAuaH7VYhc-11" edge="1" parent="1" source="vHO8j_4u-zzAuaH7VYhc-1" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;exitX=-0.019;exitY=0.118;exitDx=0;exitDy=0;entryX=1;entryY=0.106;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;startArrow=baseDash;startFill=0;endFill=0;" target="vHO8j_4u-zzAuaH7VYhc-3" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="560" y="210" as="sourcePoint" />
+            <mxPoint x="660" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
