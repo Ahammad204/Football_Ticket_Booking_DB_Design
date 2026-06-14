@@ -179,7 +179,7 @@ VALUES
 SELECT
     match_id,
     fixture,
-    round(base_ticket_price)
+    round(base_ticket_price) as base_ticket_price
 FROM
     Matches
 WHERE
@@ -219,7 +219,7 @@ SELECT
     b.booking_id,
     u.full_name,
     m.fixture,
-    round(b.total_cost)
+    round(b.total_cost) as total_cost
 FROM
     Bookings b
     INNER JOIN Users u ON b.user_id = u.user_id
@@ -235,3 +235,20 @@ SELECT
 FROM
     Users u
     LEFT JOIN Bookings b ON u.user_id = b.user_id;
+
+-- =========================================================================
+-- Query 6: Find all ticket bookings where the total cost is strictly higher than the average cost of all ticket bookings.
+-- =========================================================================
+SELECT
+    booking_id,
+    match_id,
+    round(total_cost) as total_cost
+FROM
+    Bookings
+WHERE
+    total_cost > (
+        SELECT
+            AVG(total_cost)
+        FROM
+            Bookings
+    );
