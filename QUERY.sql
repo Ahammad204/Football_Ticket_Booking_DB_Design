@@ -45,12 +45,13 @@ CREATE TABLE Matches (
 -- 3. CREATE BOOKINGS TABLE
 -- =========================================================================
 CREATE TABLE Bookings (
-    booking_id TYPE,
-    user_id TYPE,
-    match_id TYPE,
-    seat_number TYPE,
-    payment_status TYPE,
-    total_cost TYPE,
+  booking_id      SERIAL,
+  user_id         INT REFERENCES Users(user_id),
+  match_id        INT REFERENCES Matches(match_id),
+  seat_number     VARCHAR(10),
+  payment_status  VARCHAR(20) CHECK (payment_status IN ('Pending', 'Confirmed', 'Cancelled', 'Refunded')),
+  total_cost      NUMERIC(10,2) CHECK (total_cost >= 0),
+  PRIMARY KEY (booking_id)
     
     -- Write your constraint to make 'booking_id' the Primary Key
     -- Write your Foreign Key constraint linking 'user_id' to the Users table
